@@ -16,14 +16,13 @@ La solución utiliza servicios administrados de AWS para el almacenamiento, proc
 
 ---
 
-## Arquitectura
+<h2 align="center">
+Arquitectura de la Solución
+</h2>
 
-```text
-## Arquitectura de la Solución
-
-Arquitectura/Designer.jpg
-
-```
+<p align="center">
+    Arquitectura/Designer.jpg width="900">
+</p>
 
 ---
 
