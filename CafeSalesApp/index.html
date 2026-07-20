@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Serverless - Arquitectura de Software</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="banner">
+
+            <h1>
+                <i class="fas fa-cloud"></i>
+                Proyecto Serverless AWS
+            </h1>
+
+            <h2>
+                Consulta Inteligente de Ventas de Cafetería
+            </h2>
+
+            <div class="info-academica">
+
+                <p>
+                    <strong>Maestría en Arquitectura de Software</strong>
+                </p>
+
+                <p>
+                    Politécnico Grancolombiano
+                </p>
+
+                <p>
+                    Asignatura: Contenerización de Aplicaciones
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="descripcion">
+
+            <h3>Descripción del Proyecto</h3>
+
+            <p>
+                Aplicación desarrollada bajo una arquitectura
+                serverless en AWS utilizando:
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <i class="fab fa-aws"></i>
+                    <h4>Amazon S3</h4>
+                    <p>Almacenamiento del dataset</p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>AWS Lambda</h4>
+                    <p>Procesamiento y consultas</p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-database"></i>
+                    <h4>DynamoDB</h4>
+                    <p>Persistencia NoSQL</p>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h4>AWS Amplify</h4>
+                    <p>Publicación Web</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="consulta">
+
+            <h3>Consulta de Transacciones</h3>
+
+            <input
+                type="text"
+                id="txid"
+                placeholder="Ejemplo: TXN_1961373">
+
+            <div class="botones">
+
+                <button onclick="buscar()">
+                    <i class="fas fa-search"></i>
+                    Buscar Transacción
+                </button>
+
+                <button onclick="mostrarTodas()">
+                    <i class="fas fa-list"></i>
+                    Mostrar Primeras 50 Ventas
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="resultado"></section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Proyecto Académico - Maestría en Arquitectura de Software
+        </p>
+
+        <p>
+            Politécnico Grancolombiano
+        </p>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
