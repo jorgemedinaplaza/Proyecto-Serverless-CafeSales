@@ -21,7 +21,7 @@ Arquitectura de la Solución
 </h2>
 
 <p align="center">
-    Arquitectura/Designer.jpg width="900">
+    Arquitectura/Diseñador.jpg width="900">
 </p>
 
 ---
