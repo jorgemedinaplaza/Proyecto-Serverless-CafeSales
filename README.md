@@ -19,7 +19,9 @@ La solución utiliza servicios administrados de AWS para el almacenamiento, proc
 ## Arquitectura
 
 ```text
-<img width="1536" height="1024" alt="Designer" src=""C:\Users\ji_mp\Downloads\Designer.jpg"" />
+## Arquitectura de la Solución
+
+Arquitectura/Designer.jpg
 
 ```
 
