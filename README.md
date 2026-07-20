@@ -20,9 +20,8 @@ La solución utiliza servicios administrados de AWS para el almacenamiento, proc
 Arquitectura de la Solución
 </h2>
 
-<p align="center">
-    Arquitectura/Diseñador.jpg width="900">
-</p>
+
+    Arquitectura/Diseñador.jpg 
 
 ---
 
