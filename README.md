@@ -19,28 +19,8 @@ La solución utiliza servicios administrados de AWS para el almacenamiento, proc
 ## Arquitectura
 
 ```text
-CSV
- │
- ▼
-Amazon S3
- │
- ▼
-AWS Lambda (ImportCafeData)
- │
- ▼
-Amazon DynamoDB
- │
- ▼
-AWS Lambda (GetTransaction)
- │
- ▼
-Function URL
- │
- ▼
-Frontend Web
- │
- ▼
-AWS Amplify
+<img width="1536" height="1024" alt="Designer" src="https://github.com/user-attachments/assets/c108409b-1e8f-4e1a-b3f1-e9abfa7fa3a7" />
+
 ```
 
 ---
